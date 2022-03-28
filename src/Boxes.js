@@ -1,52 +1,57 @@
 import './App.css';
 import React from "react";
 
-let sum = 0;
+// const [count, setCount] = useState(0);
 
-export const AddFive = () => {
+// let incrementCount = () => {
+//   setCount(count + 1);
+// };
+
+// let decrementCount = () => {
+//   setCount(count - 1);
+// };
+
+const AddFive = () => {
     return(
         <div className="boxes-container">
-            <div>Add five</div>
+            <button type="button" className="button">Add five</button>
         </div>
     );
 
 };
 
-export const AddOne = () => {
+ const AddOne = () => {
     return(
         <div className="boxes-container">
-            <div>Add one</div>
+            <button type="button" className="button">Add one</button>
         </div>
     );
 
 };
 
-export const Reset = () => {
+ const Reset = () => {
     return(
         <div className="boxes-container">
-            <div>Reset</div>
+            <button type="button" className="button">Reset</button>
         </div>
     );
 
 };
 
-export const RemoveOne = () => {
+ const RemoveOne = () => {
     return(
         <div className="boxes-container">
-            <div>Remove one</div>
+            <button type="button" className="button">Remove one</button>
         </div>
     );
 
 };
 
-export const RemoveFive = () => {
+ const RemoveFive = () => {
     return(
         <div className="boxes-container">
-            <div>Remove five</div>
+            <button type="button" className="button">Remove five</button>
         </div>
     );
 
 };
-
-// export default BoxesTesting;
-// export default BoxesTesting2;
