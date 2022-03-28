@@ -1,11 +1,13 @@
 import './App.css';
-import React from 'react.'
+import React from 'react'
 
 
-export default const Header = () => {
+const Header = () => {
     return (
         <div className="header">
-            <h1>Header</h1>
+            <h1>Counter App</h1>
         </div>
     );
 };
+
+export default Header;
