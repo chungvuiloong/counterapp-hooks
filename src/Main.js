@@ -5,11 +5,11 @@ const Main = () => {
     const [count, setCount] = useState(0);
 
 
-    let incrementCountFive = () => {
+    let incrementFive = () => {
         setCount(count + 5);
       };
 
-  let incrementCount = () => {
+  let increment = () => {
     setCount(count + 1);
   };
 
@@ -17,19 +17,15 @@ const Main = () => {
     setCount(0);
   };
 
-  let decrementCount = () => {
+  let decrement = () => {
     setCount(count - 1);
   };
 
-  let decrementCountFive = () => {
+  let decrementFive = () => {
     setCount(count - 5);
   };
 
   
-
-
-
-
 
     return (
         <div>
@@ -37,11 +33,13 @@ const Main = () => {
                 <div className = "current-sum">{count}</div>
             </div>
 
-            <button type="button" className="button" onClick={incrementCountFive}>Add five</button>
-            <button type="button" className="button" onClick={incrementCount}>Add one</button>
+            <div className="button-container">
+            <button type="button" className="button" onClick={incrementFive}>Add five</button>
+            <button type="button" className="button" onClick={increment}>Add one</button>
             <button type="button" className="button" onClick={reset}>Reset</button>
-            <button type="button" className="button" onClick={decrementCount}>Remove one</button>
-            <button type="button" className="button" onClick={decrementCountFive}>Remove five</button>
+            <button type="button" className="button" onClick={decrement}>Remove one</button>
+            <button type="button" className="button" onClick={decrementFive}>Remove five</button>
+            </div>
 
         </div>
 
