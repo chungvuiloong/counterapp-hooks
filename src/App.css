@@ -26,8 +26,17 @@
   color: white;
 }
 
+.body {
+  height: 40vh;
+  display: flex;
+   /* align-items: center; */
+   justify-content: space-evenly;
+}
+
+
+
 .circle {
-  margin: 0 auto;
+  margin: 50px auto;
   height: 100px;
   width: 100px;
   border: 2px solid black;
@@ -39,6 +48,12 @@
   height: 50px;
   width: 100px;
   border: 2px solid black;
+   /* align-items: center; */
+   display: flex;
+  flex-direction: column;
+   justify-content: center;
+
+  
 }
 
 .footer {

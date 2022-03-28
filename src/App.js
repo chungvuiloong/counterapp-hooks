@@ -1,7 +1,7 @@
 
 import Header from './Header';
 import Footer from './Footer';
-import {BoxesTesting, BoxesTesting2} from './Boxes';
+import {AddFive, AddOne, Reset, RemoveOne, RemoveFive} from './Boxes';
 import Circle from './Circle';
 import './App.css';
 
@@ -10,9 +10,13 @@ function App() {
     <div className="App">
       <Header></Header>
       <Circle></Circle>
-      <BoxesTesting></BoxesTesting>
-      <BoxesTesting2></BoxesTesting2>
-
+      <body className="body">
+        <AddFive></AddFive>
+        <AddOne></AddOne>
+        <Reset></Reset>
+        <RemoveOne></RemoveOne>
+        <RemoveFive></RemoveFive>
+      </body>
       <Footer></Footer>
     </div>
   );

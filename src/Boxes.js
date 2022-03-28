@@ -3,21 +3,46 @@ import React from "react";
 
 let sum = 0;
 
-export const BoxesTesting = () => {
+export const AddFive = () => {
     return(
-
-        const add
         <div className="boxes-container">
-            <div onClick="console.log(5)">Testing</div>
+            <div>Add five</div>
         </div>
     );
 
 };
 
-export const BoxesTesting2 = () => {
+export const AddOne = () => {
     return(
         <div className="boxes-container">
-            <div>Testing</div>
+            <div>Add one</div>
+        </div>
+    );
+
+};
+
+export const Reset = () => {
+    return(
+        <div className="boxes-container">
+            <div>Reset</div>
+        </div>
+    );
+
+};
+
+export const RemoveOne = () => {
+    return(
+        <div className="boxes-container">
+            <div>Remove one</div>
+        </div>
+    );
+
+};
+
+export const RemoveFive = () => {
+    return(
+        <div className="boxes-container">
+            <div>Remove five</div>
         </div>
     );
 
